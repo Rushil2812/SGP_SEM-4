@@ -1,0 +1,103 @@
+.aHeader {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    position: sticky;
+    /* z-index: 1000; */
+    top: 0px;
+    box-shadow: 2px 3px 6px rgba(187, 187, 187, 0.5);
+    justify-content: center;
+    padding: 3px;
+  }
+  
+  .aHeader-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 5px; */
+  }
+  .aHeader_icons {
+    display: flex;
+  }
+  .aHeader_logo
+  {
+      font-size: 1.4rem;
+      color: gray;
+      padding-bottom: 7px;
+  }
+  .aHeader_logo:hover
+  {
+      color: black;
+  }
+  .aHeader_icon {
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .aHeader_icon:hover {
+    background-color: #eee;
+    border-radius: 5px;
+  }
+  
+  .aHeader_icon > .MuiSvgIcon-root {
+    color: gray;
+    font-size: xx-large;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .aHeader_icon:hover > .MuiSvgIcon-root {
+    color: #000;
+  }
+
+  .aHeader_input {
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+  
+  .aHeader_input > input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: rgb(49, 49, 49);
+  }
+  
+  .aHeader_input > .MuiSvgIcon-root {
+    color: gray;
+  }
+  
+  .aHeader_avatar {
+    cursor: pointer;
+  }
+  .aHeader_Rem {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+  }
+  
+  .aHeader_Rem > .MuiSvgIcon-root {
+    font-size: xx-large;
+    color: gray;
+    margin-left: 25px;
+    cursor: pointer;
+  }
+  .aHeader_Rem > .MuiSvgIcon-root:hover {
+    color: #000;
+  }
+  
+  .aHeader_Rem > .MuiButton-root {
+    color: white;
+    background: #222;
+    text-transform: inherit;
+    border-radius: 5px;
+    margin-left: 25px;
+  }
+  
+  .aHeader_Rem > .MuiButton-root:hover {
+    color: #222;
+    background: rgb(214, 214, 214);
+  }
